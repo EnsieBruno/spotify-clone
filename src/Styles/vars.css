@@ -1,0 +1,12 @@
+:root {
+    /* Font */
+    --font-principal: "Dm Sans" , sans-serif;
+    /* Colors */
+    --color-principal: rgb(15, 211, 25);
+    --color-secondary: #fff;
+
+    --color-background-sidebar:#b3b3b3;
+
+    --color-bg-icons: #131313;
+    --color-arrow-bg: rgba(0,0,07)
+}

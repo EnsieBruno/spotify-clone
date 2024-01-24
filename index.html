@@ -1,85 +1,115 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify</title>
 
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+        <!-- Link do Favicon da página -->
+        <link rel="icon" type="image/x-icon" href="./src/assets/icons/favicon.png">
 
-    <script src="https://kit.fontawesome.com/434658e145.js" crossorigin="anonymous"></script>
+        <!-- Links de Estilo Css -->
+        <link rel="stylesheet" href="./src/Styles/reset.css">
+        <link rel="stylesheet" href="./src/Styles/vars.css">
+        <link rel="stylesheet" href="./src/Styles/main-content.css">
+        <link rel="stylesheet" href="./src/Styles/sidebar-footer.css">
+        
+
+        <!-- Link do BD de icones da página-->
+        <script src="https://kit.fontawesome.com/434658e145.js" crossorigin="anonymous"></script>
 
 
-</head>
+    </head>
 
-<body>
+    <body>
 
     <!-- Sidebar menu logo , inicio e Buscar -->
-    <div class="sidebar">
-        <nav class="sidebar__navigation">
-            <div class="logo">
-                <a href="#">
-                    <img src="./assets/icons-20240124T155713Z-001/icons/logo-spotify.png" alt="Logo spotify">
-                </a>
-            </div class="menu">
-            <ul>
-                <li>
+        <div class="sidebar">
+            <nav class="sidebar__navigation">
+                <div class="logo">
                     <a href="#">
-                        <span class="fa fa-home"></span>
-                        <span>Inicio</span>
+                        <img src="./src/assets/icons/logo-spotify.png" alt="Logo spotify">
                     </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="fa fa-search"></span>
-                        <span>Buscar</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    
+                </div class="menu">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="fa fa-home"></span>
+                            <span>Inicio</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="fa fa-search"></span>
+                            <span>Buscar</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        
 
     <!--Sidebar Biblioteca -->
-        <div class="library">
-            <div class="library__content">
-                <button class="library__button">
-                    <span class="fa-solid fa-book"></span>
-                    <span>Sua Biblioteca</span>
-                </button>
-                <span class="fa-solid fa-plus"></span>
-            </div>
+            <div class="library">
+                        <div class="library__content">
+                            <button class="library__button">
+                                <span class="fa-solid fa-book"></span>
+                                <span>Sua Biblioteca</span>
+                            </button>
+                            <span class="fa-solid fa-plus"></span>
+                        </div>
 
-                <section class="section__playlist">
-                    <div class="section__content">
-                        <span class="text title">Crie Sua Primeira Playlist</span>
-                        <span class="text sub-title">É fácil, vamos te ajudar!</span>
-                        <button class="section__button">
-                            <span>Criar Playlist</span>
-                        </button>
-                    </div>
-                </section>
-            
-            <div class="cookies">
-                <a href="#">cookies</a>
+                        <section class="section__playlist">
+                            <div class="section__content">
+                                <span class="text title">Crie Sua Primeira Playlist</span>
+                                <span class="text sub-title">É fácil, vamos te ajudar!</span>
+                                <button class="section__button">
+                                    <span>Criar Playlist</span>
+                                </button>
+                            </div>
+                        </section>
+                    
+                        <div class="cookies">
+                            <a href="#">cookies</a>
+                        </div>
+                        
+                        <div class="languages">
+                            <button class="languages__button">
+                                <span class="fa-solid fa-globe"></span>
+                                <span>Português do Brasil</span>
+                            </button>
+                        </div>
             </div>
+        </div>
+
+
+        <!-- Main , Cards -->
+
+        <main class="main__container">
+            <nav class="header__navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="./src/assets/icons/small-left.png" alt="Seta Esquerda">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="./src/assets/icons/small-right.png" alt="Seta Direita">
+                    </button>
+                </div>
+
+                <div class="header__search">
+                    <img src="./src/assets/icons/search.png" alt="">
+                    <input type="text" id="search-input" maxlength="800" placeholder="O quê você quer ouvir?">
+                </div>
+
+                <div class="header__login">
+                    <button class="subscribe">Inscreva-se</button>
+                    <button class="login">Entrar</button>
+                </div>
+
                 
-            <div class="languages">
-                <button class="languages__button">
-                    <span class="fa-solid fa-globe"></span>
-                    <span>Português do Brasil</span>
-
-                </button>
-            </div>
-            </div>            
-        </nav>
-    </div>
-
-    </div>
 
 
-
-    
-</body>
+        </main>
+        
+    </body>
 
 </html>
