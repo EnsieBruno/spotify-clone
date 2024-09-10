@@ -16,8 +16,8 @@ Este projeto é uma recriação da página inicial do Spotify utilizando HTML e 
 
 ```html
 ├── index.html
-├── css/
+├── SRC/
 │   └── styles.css
-└── assets/
+├── assets/
     ├── images/
     └── fonts/
