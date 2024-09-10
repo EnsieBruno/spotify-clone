@@ -9,7 +9,7 @@ Este projeto é uma recriação da página inicial do Spotify utilizando HTML e 
 ## 🎨 Link
 
 <div align="center">
-  [<img src="caminho-para-screenshot.png" alt="Spotify Clone Screenshot" width="600"/>](https://ensiebruno.github.io/spotify-clone/)
+  https://ensiebruno.github.io/spotify-clone/
 </div>
 
 ## 📂 Estrutura do Projeto
